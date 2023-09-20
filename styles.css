@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.pergunta {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.opcoes button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.opcoes button#nao {
+    position: relative;
+}
+
+.opcoes button#nao:hover {
+    top: -10px;
+}
